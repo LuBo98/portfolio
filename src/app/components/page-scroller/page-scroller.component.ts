@@ -1,10 +1,12 @@
 import { Component, HostListener, OnInit } from '@angular/core';
 import { setUpLocationSync } from '@angular/router/upgrade';
+import { NgOptimizedImage } from '@angular/common';
+import { PageIndexComponent } from '../page-index/page-index.component';
 
 @Component({
   selector: 'app-page-scroller',
   standalone: true,
-  imports: [],
+  imports: [NgOptimizedImage, PageIndexComponent],
   templateUrl: './page-scroller.component.html',
   styleUrl: './page-scroller.component.scss',
 })

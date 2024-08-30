@@ -1,0 +1,41 @@
+@import "./../../../styles/variables";
+.main-point {
+  cursor: pointer;
+  background-color: $primary-color;
+  min-height: 20px;
+  min-width: 20px;
+  border-radius: 100%;
+}
+.secondary-point {
+  cursor: pointer;
+  background-color: $primary-color;
+  opacity: 70%;
+  min-height: 16px;
+  min-width: 16px;
+  border-radius: 100%;
+  transition: min-width min-height opacity 2s;
+}
+.secondary-point:hover {
+  min-width: 20px;
+  min-height: 20px;
+  opacity: 100%;
+}
+.top-entry-point {
+  position: relative;
+  background-color: $primary-color;
+  opacity: 100%;
+  min-height: 16px;
+  min-width: 16px;
+  border-radius: 100%;
+}
+.inner-index-container {
+  position: fixed;
+  left: 95%;
+  top: 50%;
+  gap: 5px;
+  overflow: auto;
+  height: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
