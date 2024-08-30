@@ -1,0 +1,42 @@
+@import "variables";
+
+* {
+  background-color: $background-color;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body,
+html {
+  font-family: $font-family-primary;
+  font-size: $primary-font-size;
+  line-height: 1.6;
+  color: $primary-color;
+  margin: 0;
+  padding: 0;
+  padding-left: 30px;
+  padding-right: 5px;
+  box-sizing: border-box;
+  height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $font-family-primary;
+  color: $primary-color;
+  margin-bottom: $spacing-sm;
+  font-weight: 600;
+  line-height: 0.8;
+}
+
+h1 {
+  font-size: 160px;
+}
+
+h2 {
+  font-size: 120px;
+}
